@@ -24,7 +24,7 @@ a=1
 b=2
 print(a if a>b else b)
 print('a is bigger') if a>b else print('b is bigger')
-
+##数字版石头剪刀布
 import random
 people = int(input('请出拳：剪刀（0），石头（1），布（2）'))
 computer = random.randint(0,2)
@@ -34,4 +34,15 @@ if people == computer:
 elif (people == 0 and computer == 1) or (people == 1 and computer == 0) or (people == 2 and computer == 0):
   print('电脑赢了')
 elif (people == 0 and computer == 2) or (people == 1 and computer == 0) or (people == 2 and computer == 1):
+  print('你赢了')
+##文字版石头剪刀布
+import random
+people = input('请出拳：')
+computer = random.choice(['石头','剪刀','布'])
+print(f'电脑的出拳是{computer}')
+if people == computer:
+  print('平局')
+elif (people == "石头" and computer == "布") or (people == "剪刀" and computer == "石头") or (people == "布" and computer == "剪刀"):
+  print('电脑赢了')
+elif (people == "石头" and computer == "剪刀") or (people == "剪刀" and computer == "布") or (people == "布" and computer == "石头"):
   print('你赢了')
