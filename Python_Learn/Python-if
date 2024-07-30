@@ -19,3 +19,19 @@ else:
 x and y
 x or y
 not x
+##三元表达式
+a=1
+b=2
+print(a if a>b else b)
+print('a is bigger') if a>b else print('b is bigger')
+
+import random
+people = int(input('请出拳：剪刀（0），石头（1），布（2）'))
+computer = random.randint(0,2)
+print(f'电脑的出拳是{computer}')
+if people == computer:
+  print('平局')
+elif (people == 0 and computer == 1) or (people == 1 and computer == 0) or (people == 2 and computer == 0):
+  print('电脑赢了')
+elif (people == 0 and computer == 2) or (people == 1 and computer == 0) or (people == 2 and computer == 1):
+  print('你赢了')
