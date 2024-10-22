@@ -1,6 +1,6 @@
 ## Introduction
 ```
-- 👋 Hi, I’m @buffetgod
+- What I need to learn?
 ```
 - 👀 I’m interested in Embedded
 - 🌱 I’m currently learning C
