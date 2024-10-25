@@ -5,6 +5,3 @@
 
 ## 电路在线仿真
 - [Circuitjs web](https://book.xiaogd.net/usage-of-circuitjs/circuitjs-an-online-circuit-simulator-intro.html) - Circuitjs web 在线电路模拟器简介.
-
-## 基础书籍
-- [模拟电子技术基础_童诗白第五版.pdf](https://github.com/user-attachments/files/17517441/_.pdf)
