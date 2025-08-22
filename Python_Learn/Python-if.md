@@ -53,8 +53,8 @@ computer = random.choice(['石头','剪刀','布'])
 print(f'电脑的出拳是{computer}')
 if people == computer:
   print('平局')
-```
 elif (people == "石头" and computer == "布") or (people == "剪刀" and computer == "石头") or (people == "布" and computer == "剪刀"):
   print('电脑赢了')
 elif (people == "石头" and computer == "剪刀") or (people == "剪刀" and computer == "布") or (people == "布" and computer == "石头"):
   print('你赢了')
+```
