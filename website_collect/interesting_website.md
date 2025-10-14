@@ -1,1 +1,2 @@
 - ## [在线转盘](https://wheelpage.com/zh/#spin)
+- ## [FREE AI](https://free.stockai.trade/)
