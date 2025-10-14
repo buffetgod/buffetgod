@@ -5,3 +5,5 @@
 
 ## 电路在线仿真
 - [Circuitjs web](https://book.xiaogd.net/usage-of-circuitjs/circuitjs-an-online-circuit-simulator-intro.html) - Circuitjs web 在线电路模拟器简介.
+
+## [在线转盘](https://wheelpage.com/zh/#spin)
